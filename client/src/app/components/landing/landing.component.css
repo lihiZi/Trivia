@@ -1,0 +1,38 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13vh;
+  margin-bottom: 13vh;
+  color: #ffae42;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+.img-container {
+  height: 30%;
+}
+img {
+  height: 50vh;
+}
+.btn-start {
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn-start:hover {
+  color: #FF5719;
+}
+p {
+  margin: 1%;
+}
+@media (min-width: 600px) {
+  .landing-container {
+    font-size: 40px;
+  }
+  .img-container {
+    height: 50%;
+  }
+  .btn-start {
+    font-size: 30px;
+  }
+}

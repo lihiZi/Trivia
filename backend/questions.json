@@ -1,0 +1,113 @@
+[
+        {
+            
+            "difficulty": "medium",
+            "question": "Where was Beyoncé born?",
+            "correct_answer": "Dallas, Texas",
+            "incorrect_answers": [
+                "Houston, Texas",
+                "Paris, France",
+                "Baltimore, Maryland"
+            ]
+        },
+        {
+            
+            "difficulty": "easy",
+            "question": "What Group is Beyonce Associated with?",
+            "correct_answer": "Destiny's Child",
+            "incorrect_answers": [
+                "TLC",
+                "Run DMC",
+                "ACDC"
+            ]
+        },
+        {
+
+            "difficulty": "medium",
+            "question": "What is Beyonce's Middle Name?",
+            "correct_answer": "Giselle",
+            "incorrect_answers": [
+                "Amanda",
+                "Cathy",
+                "Riri"
+            ]
+        },
+        {
+           
+            "difficulty": "easy",
+            "question": "Who runs the world?",
+            "correct_answer": "Girls, girls",
+            "incorrect_answers": [
+                "Boys, boys",
+                "Birds, birds",
+                "Cats, cats"
+            ]
+        },
+        {
+        
+            "difficulty": "easy",
+            "question": "Beyoncé made her big screen debut in what movie?",
+            "correct_answer": "Austin Powers",
+            "incorrect_answers": [
+                "Dream Girls",
+                "The pink Panther",
+                "The social network"
+            ]
+        },
+        {
+   
+            "difficulty": "medium",
+            "question": "What is the name of Beyoncé's all-female tour band?",
+            "correct_answer": "Suga Mama",
+            "incorrect_answers": [
+                "Jenga",
+                "Beyonders",
+                "Parliment Funkadelic"
+            ]
+        },
+        {
+            
+            "difficulty": "medium",
+            "question": "What does Beyoncé call her alter ego?",
+            "correct_answer": "Sasha",
+            "incorrect_answers": [
+                "Mia",
+                "Singing Fish",
+                "Sardeen"
+            ]
+        },
+        {
+            
+            "difficulty": "hard",
+            "question": "What brand carries Beyonce's perfume line?",
+            "correct_answer": "Tommy Hilfiger",
+            "incorrect_answers": [
+                "Machiavelli",
+                "Jordache",
+                "Rami Levi"
+            ]
+        },
+        {
+            
+            "difficulty": "hard",
+            "question": "How are the Beyoncé fans called",
+            "correct_answer": "Bey Hive",
+            "incorrect_answers": [
+                "Bey Hey",
+                "Bee wow",
+                "Bey Baby"
+            ]
+        },
+        {
+            
+            "difficulty": "medium",
+            "question": "In which animated film of 2013 Beyoncé lent her voice to Queen Tara?",
+            "correct_answer": "Epic",
+            "incorrect_answers": [
+                "Frozen",
+                "Plans",
+                "Ice Age"
+            ]
+        }
+    
+]

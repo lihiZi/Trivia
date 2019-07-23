@@ -1,0 +1,24 @@
+<div class="card-container" *ngIf="answers">
+  <div class="question-container">
+    <p class="question"><strong class="blue">Q:{{currentQuestion+1}} &nbsp;</strong>{{question.question}}</p>
+  </div>
+  <div class="answers-container">
+    <div class="answer" *ngFor="let answer of answers;index as i" (click)="markSelectionHandler($event)">
+      <div class="monitor"> <img class="monitor-img" /></div>
+      <p class="answer-content">{{answer}} </p>
+    </div>
+  </div>
+  <p class="btn-disabled" (click)="submitHandler($event)" *ngIf="!gameOver" [innerHTML]="submitted ? 'Continue' : 'OK!'"></p>
+  <div class="stages">
+    <div *ngFor="let stage of trivia; let i = index" class="stage" (click)="chooseAnswered($event)"
+      [style.backgroundColor]=" i === currentQuestion ? '#3486df' : '#D0D0D0'"></div>
+  </div>
+  <p class="difficulty"><b>Difficulty:</b> {{question.difficulty}}</p>
+</div>
+<div *ngIf="gameOver" class="gameOverCont">
+  <p style="margin-top: 10%" class="gameOver">Game Over!</p>
+  <p style="margin: 0">You have Answered correctly &nbsp;{{rightAnsCounter}}&nbsp; questions out of 10! </p>
+  <img class="game-over-gif" src="../../../assets/Bfinish.gif" alt="">
+  <p class="replay" (click)="replayHandler()">Play Again!</p>
+</div>
+
